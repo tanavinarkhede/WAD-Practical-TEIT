@@ -1,0 +1,89 @@
+body {
+  overflow-x: hidden;
+}
+.mainboard {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.sidebar1 {
+  display: flex;
+  align-items: center;
+  width: 15vw;
+  height: 100vh;
+  flex-direction: column;
+  background-color: gray;
+}
+.sidebar1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  height: 50px;
+  flex-direction: column;
+  width: 15vw;
+  color: white;
+}
+.sidebar1 a:hover {
+  background-color: white;
+  color: black;
+}
+.rightside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 85vw;
+  background-color: beige;
+}
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.startingchart {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  height: 80%;
+  width: 100%;
+  background-color: beige;
+}
+.chart1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+}
+
+.chart2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+}
+
+.orders {
+  height: 100vh;
+  width: 100vw;
+}
+
+.cards {
+  display: flex;
+  background-color: beige;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.cards div {
+  margin: 30px;
+}
